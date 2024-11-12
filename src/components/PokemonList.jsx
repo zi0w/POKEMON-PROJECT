@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import styled from "styled-components";
 import PokemonCard from "./PokemonCard";
 import MOCK_DATA from "../data/PokemonData";
@@ -16,17 +16,11 @@ const PokemonContainer = styled.div`
   gap: 25px;
 `;
 
-const PokemonList = ({ addPokemon }) => {
+const PokemonList = () => {
   return (
     <PokemonContainer>
       {MOCK_DATA.map((pokemon) => {
-        return (
-          <PokemonCard
-            key={pokemon.id}
-            pokemon={pokemon}
-            addPokemon={addPokemon}
-          />
-        );
+        return <PokemonCard key={pokemon.id} pokemon={pokemon} />;
       })}
     </PokemonContainer>
   );

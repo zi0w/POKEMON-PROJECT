@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { PokemonContext } from "../context/PokemonContext";
 
 export const CardBox = styled.div`
   width: ${(props) => (props.width ? props.width : "130px")};
@@ -79,16 +80,11 @@ const StyledLink = styled(Link)`
   align-items: center;
 `;
 
-// 여기서 상황에 따라 CardBox를 할지 아니면 CustomCardBox를 할지 선택
-const PokemonCard = ({
-  pokemon,
-  addPokemon,
-  removePokemon,
-  dashBoardPokemons,
-  width,
-}) => {
+const PokemonCard = ({ pokemon, width }) => {
+  const { addPokemon, removePokemon, dashBoardPokemons } =
+    useContext(PokemonContext);
+
   return (
-    // 여기서 moveToDetail 로 포켓몬 정보를 보내주면 moveToDetail에서 id로 페이지 전환하고 포켓몬 정보로 페이지 그려주기
     <CardBox width={width}>
       <StyledLink to={`/Dex/${pokemon.id}`}>
         <PokemonImg src={pokemon.img_url} alt="pokemon.korean_name" />
@@ -97,7 +93,7 @@ const PokemonCard = ({
           <PokemonId>No. {pokemon.id}</PokemonId>
         </TextBox>
       </StyledLink>
-      {dashBoardPokemons ? (
+      {dashBoardPokemons && dashBoardPokemons.length > 0 ? (
         <Button
           type="button"
           onClick={() => {
