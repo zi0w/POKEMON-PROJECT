@@ -1,12 +1,15 @@
 import React from "react";
 import Router from "./shared/Router";
 import { GlobalStyles } from "./styles/GlobalStyles";
+import PokemonProvider from "./context/PokemonProvider";
 
 const App = () => {
   return (
     <>
-      <GlobalStyles />
-      <Router />
+      <PokemonProvider>
+        <GlobalStyles />
+        <Router />
+      </PokemonProvider>
     </>
   );
 };

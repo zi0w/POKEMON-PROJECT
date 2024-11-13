@@ -18,12 +18,10 @@ const AppContainer = styled.div`
 
 const Dex = () => {
   return (
-    <PokemonProvider>
-      <AppContainer>
-        <DashBoard />
-        <PokemonList />
-      </AppContainer>
-    </PokemonProvider>
+    <AppContainer>
+      <DashBoard />
+      <PokemonList />
+    </AppContainer>
   );
 };
 

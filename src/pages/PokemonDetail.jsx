@@ -1,8 +1,9 @@
-import React, { useReducer } from "react";
+import React, { useContext, useReducer } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import MOCK_DATA from "../data/PokemonData";
 import WallPaper from "../assets/Images/WallPaper.jpg";
 import styled from "styled-components";
+import { PokemonContext } from "../context/PokemonContext";
 
 const Wrapper = styled.div`
   position: relative;
@@ -93,7 +94,16 @@ const Button = styled.button`
   }
 `;
 
+const ButtonContainer = styled.div`
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+`;
+
 const PokemonDetail = () => {
+  const { addPokemon, removePokemon, dashBoardPokemons } =
+    useContext(PokemonContext);
   const params = useParams();
 
   const foundPokemon = MOCK_DATA.find((pokemon) => {
@@ -111,13 +121,34 @@ const PokemonDetail = () => {
           <PokemonName>{foundPokemon.korean_name}</PokemonName>
           <PokemonTypes>타입: {foundPokemon.types}</PokemonTypes>
           <PokemonDescription>{foundPokemon.description}</PokemonDescription>
-          <Button
-            onClick={() => {
-              navigate("/dex");
-            }}
-          >
-            뒤로가기
-          </Button>
+          <ButtonContainer>
+            <Button
+              onClick={() => {
+                navigate("/dex");
+              }}
+            >
+              뒤로가기
+            </Button>
+            {dashBoardPokemons.includes(foundPokemon) ? (
+              <Button
+                type="button"
+                onClick={() => {
+                  removePokemon(foundPokemon);
+                }}
+              >
+                삭제
+              </Button>
+            ) : (
+              <Button
+                type="button"
+                onClick={() => {
+                  addPokemon(foundPokemon);
+                }}
+              >
+                추가
+              </Button>
+            )}
+          </ButtonContainer>
         </InfomationContainer>
       </PokemonContainer>
     </Wrapper>
