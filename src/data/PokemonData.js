@@ -1,7 +1,7 @@
 const MOCK_DATA = [
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif",
     korean_name: "이상해씨",
     types: ["풀", "독"],
     id: 1,
@@ -9,7 +9,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/2.gif",
     korean_name: "이상해풀",
     types: ["풀", "독"],
     id: 2,
@@ -17,7 +17,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/3.gif",
     korean_name: "이상해꽃",
     types: ["풀", "독"],
     id: 3,
@@ -25,7 +25,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/4.gif",
     korean_name: "파이리",
     types: ["불꽃"],
     id: 4,
@@ -33,7 +33,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/5.gif",
     korean_name: "리자드",
     types: ["불꽃"],
     id: 5,
@@ -41,7 +41,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/6.gif",
     korean_name: "리자몽",
     types: ["불꽃", "비행"],
     id: 6,
@@ -50,7 +50,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/7.gif",
     korean_name: "꼬부기",
     types: ["물"],
     id: 7,
@@ -58,7 +58,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/8.gif",
     korean_name: "어니부기",
     types: ["물"],
     id: 8,
@@ -66,7 +66,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/9.gif",
     korean_name: "거북왕",
     types: ["물"],
     id: 9,
@@ -74,7 +74,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10.gif",
     korean_name: "캐터피",
     types: ["벌레"],
     id: 10,
@@ -82,7 +82,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/11.gif",
     korean_name: "단데기",
     types: ["벌레"],
     id: 11,
@@ -90,7 +90,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/12.gif",
     korean_name: "버터플",
     types: ["벌레", "비행"],
     id: 12,
@@ -98,7 +98,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/13.gif",
     korean_name: "뿔충이",
     types: ["벌레", "독"],
     id: 13,
@@ -106,7 +106,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/14.gif",
     korean_name: "딱충이",
     types: ["벌레", "독"],
     id: 14,
@@ -114,7 +114,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/15.gif",
     korean_name: "독침붕",
     types: ["벌레", "독"],
     id: 15,
@@ -122,7 +122,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/16.gif",
     korean_name: "구구",
     types: ["노말", "비행"],
     id: 16,
@@ -130,7 +130,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/17.gif",
     korean_name: "피죤",
     types: ["노말", "비행"],
     id: 17,
@@ -138,7 +138,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/18.gif",
     korean_name: "피죤투",
     types: ["노말", "비행"],
     id: 18,
@@ -146,7 +146,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/19.gif",
     korean_name: "꼬렛",
     types: ["노말"],
     id: 19,
@@ -154,7 +154,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/20.gif",
     korean_name: "레트라",
     types: ["노말"],
     id: 20,
@@ -162,7 +162,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/21.gif",
     korean_name: "깨비참",
     types: ["노말", "비행"],
     id: 21,
@@ -170,7 +170,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/22.gif",
     korean_name: "깨비드릴조",
     types: ["노말", "비행"],
     id: 22,
@@ -178,7 +178,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/23.gif",
     korean_name: "아보",
     types: ["독"],
     id: 23,
@@ -186,7 +186,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/24.gif",
     korean_name: "아보크",
     types: ["독"],
     id: 24,
@@ -194,7 +194,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif",
     korean_name: "피카츄",
     types: ["전기"],
     id: 25,
@@ -203,7 +203,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/26.gif",
     korean_name: "라이츄",
     types: ["전기"],
     id: 26,
@@ -211,7 +211,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/27.gif",
     korean_name: "모래두지",
     types: ["땅"],
     id: 27,
@@ -219,7 +219,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/28.gif",
     korean_name: "고지",
     types: ["땅"],
     id: 28,
@@ -228,7 +228,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/29.gif",
     korean_name: "니드런♀",
     types: ["독"],
     id: 29,
@@ -236,7 +236,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/30.gif",
     korean_name: "니드리나",
     types: ["독"],
     id: 30,
@@ -244,7 +244,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/31.gif",
     korean_name: "니드퀸",
     types: ["독", "땅"],
     id: 31,
@@ -252,7 +252,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/32.gif",
     korean_name: "니드런♂",
     types: ["독"],
     id: 32,
@@ -260,7 +260,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/33.gif",
     korean_name: "니드리노",
     types: ["독"],
     id: 33,
@@ -268,7 +268,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/34.gif",
     korean_name: "니드킹",
     types: ["독", "땅"],
     id: 34,
@@ -276,7 +276,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/35.gif",
     korean_name: "삐삐",
     types: ["페어리"],
     id: 35,
@@ -285,7 +285,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/36.gif",
     korean_name: "픽시",
     types: ["페어리"],
     id: 36,
@@ -293,7 +293,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/37.gif",
     korean_name: "식스테일",
     types: ["불꽃"],
     id: 37,
@@ -301,7 +301,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/38.gif",
     korean_name: "나인테일",
     types: ["불꽃"],
     id: 38,
@@ -309,7 +309,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/39.gif",
     korean_name: "푸린",
     types: ["노말", "페어리"],
     id: 39,
@@ -318,7 +318,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/40.gif",
     korean_name: "푸크린",
     types: ["노말", "페어리"],
     id: 40,
@@ -327,7 +327,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/41.gif",
     korean_name: "주뱃",
     types: ["독", "비행"],
     id: 41,
@@ -335,7 +335,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/42.gif",
     korean_name: "골뱃",
     types: ["독", "비행"],
     id: 42,
@@ -343,7 +343,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/43.gif",
     korean_name: "뚜벅쵸",
     types: ["풀", "독"],
     id: 43,
@@ -351,7 +351,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/44.gif",
     korean_name: "냄새꼬",
     types: ["풀", "독"],
     id: 44,
@@ -359,7 +359,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/45.gif",
     korean_name: "라플레시아",
     types: ["풀", "독"],
     id: 45,
@@ -367,7 +367,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/46.gif",
     korean_name: "파라스",
     types: ["벌레", "풀"],
     id: 46,
@@ -375,7 +375,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/47.gif",
     korean_name: "파라섹트",
     types: ["벌레", "풀"],
     id: 47,
@@ -383,7 +383,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/48.gif",
     korean_name: "콘팡",
     types: ["벌레", "독"],
     id: 48,
@@ -391,7 +391,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/49.gif",
     korean_name: "도나리",
     types: ["벌레", "독"],
     id: 49,
@@ -399,7 +399,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/50.gif",
     korean_name: "디그다",
     types: ["땅"],
     id: 50,
@@ -407,7 +407,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/51.gif",
     korean_name: "닥트리오",
     types: ["땅"],
     id: 51,
@@ -415,7 +415,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/52.gif",
     korean_name: "나옹",
     types: ["노말"],
     id: 52,
@@ -423,7 +423,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/53.gif",
     korean_name: "페르시온",
     types: ["노말"],
     id: 53,
@@ -432,7 +432,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/54.gif",
     korean_name: "고라파덕",
     types: ["물"],
     id: 54,
@@ -441,7 +441,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/55.gif",
     korean_name: "골덕",
     types: ["물"],
     id: 55,
@@ -450,7 +450,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/56.gif",
     korean_name: "망키",
     types: ["격투"],
     id: 56,
@@ -458,7 +458,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/57.gif",
     korean_name: "성원숭",
     types: ["격투"],
     id: 57,
@@ -466,7 +466,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/58.gif",
     korean_name: "가디",
     types: ["불꽃"],
     id: 58,
@@ -474,7 +474,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/59.gif",
     korean_name: "윈디",
     types: ["불꽃"],
     id: 59,
@@ -482,7 +482,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/60.gif",
     korean_name: "발챙이",
     types: ["물"],
     id: 60,
@@ -490,7 +490,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/61.gif",
     korean_name: "슈륙챙이",
     types: ["물"],
     id: 61,
@@ -499,7 +499,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/62.gif",
     korean_name: "강챙이",
     types: ["물", "격투"],
     id: 62,
@@ -508,7 +508,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/63.gif",
     korean_name: "캐이시",
     types: ["에스퍼"],
     id: 63,
@@ -516,7 +516,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/64.gif",
     korean_name: "윤겔라",
     types: ["에스퍼"],
     id: 64,
@@ -524,7 +524,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/65.gif",
     korean_name: "후딘",
     types: ["에스퍼"],
     id: 65,
@@ -532,7 +532,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/66.gif",
     korean_name: "알통몬",
     types: ["격투"],
     id: 66,
@@ -540,7 +540,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/67.gif",
     korean_name: "근육몬",
     types: ["격투"],
     id: 67,
@@ -548,7 +548,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/68.gif",
     korean_name: "괴력몬",
     types: ["격투"],
     id: 68,
@@ -556,7 +556,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/69.gif",
     korean_name: "모다피",
     types: ["풀", "독"],
     id: 69,
@@ -564,7 +564,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/70.gif",
     korean_name: "우츠동",
     types: ["풀", "독"],
     id: 70,
@@ -572,7 +572,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/71.gif",
     korean_name: "우츠보트",
     types: ["풀", "독"],
     id: 71,
@@ -580,7 +580,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/72.gif",
     korean_name: "왕눈해",
     types: ["물", "독"],
     id: 72,
@@ -588,7 +588,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/73.gif",
     korean_name: "독파리",
     types: ["물", "독"],
     id: 73,
@@ -596,7 +596,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/74.gif",
     korean_name: "꼬마돌",
     types: ["바위", "땅"],
     id: 74,
@@ -604,7 +604,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/75.gif",
     korean_name: "데구리",
     types: ["바위", "땅"],
     id: 75,
@@ -612,7 +612,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/76.gif",
     korean_name: "딱구리",
     types: ["바위", "땅"],
     id: 76,
@@ -620,7 +620,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/77.gif",
     korean_name: "포니타",
     types: ["불꽃"],
     id: 77,
@@ -628,7 +628,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/78.gif",
     korean_name: "날쌩마",
     types: ["불꽃"],
     id: 78,
@@ -636,7 +636,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/79.gif",
     korean_name: "야돈",
     types: ["물", "에스퍼"],
     id: 79,
@@ -645,7 +645,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/80.gif",
     korean_name: "야도란",
     types: ["물", "에스퍼"],
     id: 80,
@@ -653,7 +653,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/81.gif",
     korean_name: "코일",
     types: ["전기", "강철"],
     id: 81,
@@ -661,7 +661,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/82.gif",
     korean_name: "레어코일",
     types: ["전기", "강철"],
     id: 82,
@@ -669,7 +669,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/83.gif",
     korean_name: "파오리",
     types: ["노말", "비행"],
     id: 83,
@@ -677,7 +677,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/84.gif",
     korean_name: "두두",
     types: ["노말", "비행"],
     id: 84,
@@ -686,7 +686,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/85.gif",
     korean_name: "두트리오",
     types: ["노말", "비행"],
     id: 85,
@@ -694,7 +694,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/86.gif",
     korean_name: "쥬쥬",
     types: ["물"],
     id: 86,
@@ -702,7 +702,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/87.gif",
     korean_name: "쥬레곤",
     types: ["물", "얼음"],
     id: 87,
@@ -710,7 +710,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/88.gif",
     korean_name: "질퍽이",
     types: ["독"],
     id: 88,
@@ -718,7 +718,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/89.gif",
     korean_name: "질뻐기",
     types: ["독"],
     id: 89,
@@ -726,7 +726,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/90.gif",
     korean_name: "셀러",
     types: ["물"],
     id: 90,
@@ -734,7 +734,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/91.gif",
     korean_name: "파르셀",
     types: ["물", "얼음"],
     id: 91,
@@ -742,7 +742,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/92.gif",
     korean_name: "고오스",
     types: ["고스트", "독"],
     id: 92,
@@ -750,7 +750,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/93.gif",
     korean_name: "고우스트",
     types: ["고스트", "독"],
     id: 93,
@@ -758,7 +758,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/94.gif",
     korean_name: "팬텀",
     types: ["고스트", "독"],
     id: 94,
@@ -767,7 +767,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/95.gif",
     korean_name: "롱스톤",
     types: ["바위", "땅"],
     id: 95,
@@ -775,7 +775,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/96.gif",
     korean_name: "슬리프",
     types: ["에스퍼"],
     id: 96,
@@ -783,7 +783,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/97.gif",
     korean_name: "슬리퍼",
     types: ["에스퍼"],
     id: 97,
@@ -791,7 +791,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/98.gif",
     korean_name: "크랩",
     types: ["물"],
     id: 98,
@@ -799,7 +799,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/99.gif",
     korean_name: "킹크랩",
     types: ["물"],
     id: 99,
@@ -807,7 +807,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/100.gif",
     korean_name: "찌리리공",
     types: ["전기"],
     id: 100,
@@ -815,7 +815,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/101.gif",
     korean_name: "붐볼",
     types: ["전기"],
     id: 101,
@@ -823,7 +823,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/102.gif",
     korean_name: "아라리",
     types: ["풀", "에스퍼"],
     id: 102,
@@ -831,7 +831,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/103.gif",
     korean_name: "나시",
     types: ["풀", "에스퍼"],
     id: 103,
@@ -839,7 +839,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/104.gif",
     korean_name: "탕구리",
     types: ["땅"],
     id: 104,
@@ -847,7 +847,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/105.gif",
     korean_name: "텅구리",
     types: ["땅"],
     id: 105,
@@ -856,7 +856,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/106.gif",
     korean_name: "시라소몬",
     types: ["격투"],
     id: 106,
@@ -864,7 +864,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/107.gif",
     korean_name: "홍수몬",
     types: ["격투"],
     id: 107,
@@ -872,7 +872,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/108.gif",
     korean_name: "내루미",
     types: ["노말"],
     id: 108,
@@ -880,7 +880,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/109.gif",
     korean_name: "또가스",
     types: ["독"],
     id: 109,
@@ -888,7 +888,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/110.gif",
     korean_name: "또도가스",
     types: ["독"],
     id: 110,
@@ -896,7 +896,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/111.gif",
     korean_name: "뿔카노",
     types: ["땅", "바위"],
     id: 111,
@@ -904,7 +904,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/112.gif",
     korean_name: "코뿌리",
     types: ["땅", "바위"],
     id: 112,
@@ -912,7 +912,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/113.gif",
     korean_name: "럭키",
     types: ["노말"],
     id: 113,
@@ -920,7 +920,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/114.gif",
     korean_name: "덩쿠리",
     types: ["풀"],
     id: 114,
@@ -928,7 +928,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/115.gif",
     korean_name: "캥카",
     types: ["노말"],
     id: 115,
@@ -936,7 +936,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/116.gif",
     korean_name: "쏘드라",
     types: ["물"],
     id: 116,
@@ -944,7 +944,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/117.gif",
     korean_name: "시드라",
     types: ["물"],
     id: 117,
@@ -952,7 +952,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/118.gif",
     korean_name: "콘치",
     types: ["물"],
     id: 118,
@@ -960,7 +960,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/119.gif",
     korean_name: "왕콘치",
     types: ["물"],
     id: 119,
@@ -968,7 +968,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/120.gif",
     korean_name: "별가사리",
     types: ["물"],
     id: 120,
@@ -976,7 +976,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/121.gif",
     korean_name: "아쿠스타",
     types: ["물", "에스퍼"],
     id: 121,
@@ -984,7 +984,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif",
     korean_name: "마임맨",
     types: ["에스퍼", "페어리"],
     id: 122,
@@ -992,7 +992,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/123.gif",
     korean_name: "스라크",
     types: ["벌레", "비행"],
     id: 123,
@@ -1000,7 +1000,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/124.gif",
     korean_name: "루주라",
     types: ["얼음", "에스퍼"],
     id: 124,
@@ -1008,7 +1008,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/125.gif",
     korean_name: "에레브",
     types: ["전기"],
     id: 125,
@@ -1016,7 +1016,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/126.gif",
     korean_name: "마그마",
     types: ["불꽃"],
     id: 126,
@@ -1024,7 +1024,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/127.gif",
     korean_name: "쁘사이저",
     types: ["벌레"],
     id: 127,
@@ -1032,7 +1032,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/128.gif",
     korean_name: "켄타로스",
     types: ["노말"],
     id: 128,
@@ -1040,7 +1040,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/129.gif",
     korean_name: "잉어킹",
     types: ["물"],
     id: 129,
@@ -1048,7 +1048,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/130.gif",
     korean_name: "갸라도스",
     types: ["물", "비행"],
     id: 130,
@@ -1056,7 +1056,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/131.gif",
     korean_name: "라프라스",
     types: ["물", "얼음"],
     id: 131,
@@ -1064,7 +1064,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/132.gif",
     korean_name: "메타몽",
     types: ["노말"],
     id: 132,
@@ -1073,7 +1073,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/133.gif",
     korean_name: "이브이",
     types: ["노말"],
     id: 133,
@@ -1081,7 +1081,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/134.gif",
     korean_name: "샤미드",
     types: ["물"],
     id: 134,
@@ -1089,7 +1089,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/135.gif",
     korean_name: "쥬피썬더",
     types: ["전기"],
     id: 135,
@@ -1097,7 +1097,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/136.gif",
     korean_name: "부스터",
     types: ["불꽃"],
     id: 136,
@@ -1105,7 +1105,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/137.gif",
     korean_name: "폴리곤",
     types: ["노말"],
     id: 137,
@@ -1113,7 +1113,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/138.gif",
     korean_name: "암나이트",
     types: ["바위", "물"],
     id: 138,
@@ -1121,7 +1121,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/139.gif",
     korean_name: "암스타",
     types: ["바위", "물"],
     id: 139,
@@ -1129,7 +1129,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/140.gif",
     korean_name: "투구",
     types: ["바위", "물"],
     id: 140,
@@ -1137,7 +1137,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/141.gif",
     korean_name: "투구푸스",
     types: ["바위", "물"],
     id: 141,
@@ -1145,7 +1145,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/142.gif",
     korean_name: "프테라",
     types: ["바위", "비행"],
     id: 142,
@@ -1153,7 +1153,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/143.gif",
     korean_name: "잠만보",
     types: ["노말"],
     id: 143,
@@ -1161,7 +1161,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/144.gif",
     korean_name: "프리져",
     types: ["얼음", "비행"],
     id: 144,
@@ -1170,7 +1170,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/145.gif",
     korean_name: "썬더",
     types: ["전기", "비행"],
     id: 145,
@@ -1179,7 +1179,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/146.gif",
     korean_name: "파이어",
     types: ["불꽃", "비행"],
     id: 146,
@@ -1188,7 +1188,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/147.gif",
     korean_name: "미뇽",
     types: ["드래곤"],
     id: 147,
@@ -1197,7 +1197,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/148.gif",
     korean_name: "신뇽",
     types: ["드래곤"],
     id: 148,
@@ -1205,7 +1205,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/149.gif",
     korean_name: "망나뇽",
     types: ["드래곤", "비행"],
     id: 149,
@@ -1214,7 +1214,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/150.gif",
     korean_name: "뮤츠",
     types: ["에스퍼"],
     id: 150,
@@ -1222,7 +1222,7 @@ const MOCK_DATA = [
   },
   {
     img_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/151.gif",
     korean_name: "뮤",
     types: ["에스퍼"],
     id: 151,

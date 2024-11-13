@@ -20,7 +20,13 @@ const PokemonList = () => {
   return (
     <PokemonContainer>
       {MOCK_DATA.map((pokemon) => {
-        return <PokemonCard key={pokemon.id} pokemon={pokemon} />;
+        return (
+          <PokemonCard
+            key={pokemon.id}
+            pokemon={pokemon}
+            type={"ListPokemon"}
+          />
+        );
       })}
     </PokemonContainer>
   );

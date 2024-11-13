@@ -72,7 +72,8 @@ const DashBoard = () => {
             return (
               <DashBoardPokemonArea key={pokemon.id}>
                 <PokemonCard
-                  width={"100px"}
+                  type={"selectedPokemon"}
+                  $width={"100px"}
                   key={pokemon.id}
                   pokemon={pokemon}
                 />

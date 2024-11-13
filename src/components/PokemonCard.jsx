@@ -4,13 +4,13 @@ import styled from "styled-components";
 import { PokemonContext } from "../context/PokemonContext";
 
 export const CardBox = styled.div`
-  width: ${(props) => (props.width ? props.width : "130px")};
+  width: ${(props) => (props.$width ? props.$width : "130px")};
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  padding: 10px;
+  padding: 20px 10px 10px 10px;
   border: 1px solid #cccccc;
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -28,7 +28,7 @@ const TextBox = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  margin-top: 10px;
+  margin-top: 30px;
 `;
 
 const PokemonName = styled.p`
@@ -45,8 +45,8 @@ const PokemonId = styled.p`
 `;
 
 const PokemonImg = styled.img`
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
 `;
 
 const Button = styled.button`
@@ -80,12 +80,11 @@ const StyledLink = styled(Link)`
   align-items: center;
 `;
 
-const PokemonCard = ({ pokemon, width }) => {
-  const { addPokemon, removePokemon, dashBoardPokemons } =
-    useContext(PokemonContext);
+const PokemonCard = ({ pokemon, $width, type }) => {
+  const { addPokemon, removePokemon } = useContext(PokemonContext);
 
   return (
-    <CardBox width={width}>
+    <CardBox $width={$width}>
       <StyledLink to={`/Dex/${pokemon.id}`}>
         <PokemonImg src={pokemon.img_url} alt="pokemon.korean_name" />
         <TextBox>
@@ -93,7 +92,7 @@ const PokemonCard = ({ pokemon, width }) => {
           <PokemonId>No. {pokemon.id}</PokemonId>
         </TextBox>
       </StyledLink>
-      {dashBoardPokemons && dashBoardPokemons.length > 0 ? (
+      {type === "selectedPokemon" ? (
         <Button
           type="button"
           onClick={() => {
