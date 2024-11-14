@@ -3,7 +3,7 @@ import MOCK_DATA from "../data/PokemonData";
 import WallPaper from "../assets/Images/WallPaper.jpg";
 import styled from "styled-components";
 import { useDispatch, useSelector } from "react-redux";
-import { addPokemon, removePokemon } from "../redux/slices/pokemonSlice";
+import { addPokemon, removePokemon } from "../redux/Slices/PokemonSlice";
 
 const Wrapper = styled.div`
   position: relative;
