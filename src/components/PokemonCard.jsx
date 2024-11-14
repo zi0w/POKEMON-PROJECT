@@ -1,9 +1,9 @@
-import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { PokemonContext } from "../context/PokemonContext";
+import { useDispatch } from "react-redux";
+import { addPokemon, removePokemon } from "../redux/slices/pokemonSlice";
 
-export const CardBox = styled.div`
+const CardBox = styled.div`
   width: ${(props) => (props.$width ? props.$width : "130px")};
   background-color: white;
   display: flex;
@@ -81,7 +81,7 @@ const StyledLink = styled(Link)`
 `;
 
 const PokemonCard = ({ pokemon, $width, type }) => {
-  const { addPokemon, removePokemon } = useContext(PokemonContext);
+  const dispatch = useDispatch();
 
   return (
     <CardBox $width={$width}>
@@ -96,7 +96,7 @@ const PokemonCard = ({ pokemon, $width, type }) => {
         <Button
           type="button"
           onClick={() => {
-            removePokemon(pokemon);
+            dispatch(removePokemon(pokemon.id));
           }}
         >
           삭제
@@ -105,7 +105,7 @@ const PokemonCard = ({ pokemon, $width, type }) => {
         <Button
           type="button"
           onClick={() => {
-            addPokemon(pokemon);
+            dispatch(addPokemon(pokemon));
           }}
         >
           추가

@@ -1,4 +1,3 @@
-import React, { useContext } from "react";
 import styled from "styled-components";
 import PokemonCard from "./PokemonCard";
 import MOCK_DATA from "../data/PokemonData";

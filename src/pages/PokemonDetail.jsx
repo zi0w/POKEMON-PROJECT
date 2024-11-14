@@ -1,9 +1,9 @@
-import React, { useContext, useReducer } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import MOCK_DATA from "../data/PokemonData";
 import WallPaper from "../assets/Images/WallPaper.jpg";
 import styled from "styled-components";
-import { PokemonContext } from "../context/PokemonContext";
+import { useDispatch, useSelector } from "react-redux";
+import { addPokemon, removePokemon } from "../redux/slices/pokemonSlice";
 
 const Wrapper = styled.div`
   position: relative;
@@ -102,15 +102,17 @@ const ButtonContainer = styled.div`
 `;
 
 const PokemonDetail = () => {
-  const { addPokemon, removePokemon, dashBoardPokemons } =
-    useContext(PokemonContext);
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
   const params = useParams();
+
+  const dashBoardPokemons = useSelector((state) => {
+    return state.pokemon.dashBoardPokemons;
+  });
 
   const foundPokemon = MOCK_DATA.find((pokemon) => {
     return pokemon.id === Number(params.id);
   });
-
-  const navigate = useNavigate();
 
   return (
     <Wrapper>
@@ -129,11 +131,13 @@ const PokemonDetail = () => {
             >
               뒤로가기
             </Button>
-            {dashBoardPokemons.includes(foundPokemon) ? (
+            {dashBoardPokemons.some((element) => {
+              return element.id === foundPokemon.id;
+            }) ? (
               <Button
                 type="button"
                 onClick={() => {
-                  removePokemon(foundPokemon);
+                  dispatch(removePokemon(foundPokemon.id));
                 }}
               >
                 삭제
@@ -142,7 +146,7 @@ const PokemonDetail = () => {
               <Button
                 type="button"
                 onClick={() => {
-                  addPokemon(foundPokemon);
+                  dispatch(addPokemon(foundPokemon));
                 }}
               >
                 추가

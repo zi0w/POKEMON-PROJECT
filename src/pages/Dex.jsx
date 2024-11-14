@@ -1,8 +1,6 @@
-import React, { useEffect, useState } from "react";
 import DashBoard from "../components/DashBoard";
 import styled from "styled-components";
 import PokemonList from "../components/PokemonList";
-import PokemonProvider from "../context/PokemonProvider";
 
 const AppContainer = styled.div`
   min-height: 100vh;

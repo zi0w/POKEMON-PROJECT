@@ -1,9 +1,8 @@
-import React, { useContext } from "react";
 import styled from "styled-components";
 import PokemonBall from "../assets/Images/PokemonBall.png";
 import LogoImage from "../assets/Images/Logo.png";
-import PokemonCard, { CardBox } from "../components/PokemonCard";
-import { PokemonContext } from "../context/PokemonContext";
+import PokemonCard from "../components/PokemonCard";
+import { useSelector } from "react-redux";
 
 const DashBoardContainer = styled.div`
   width: 70%;
@@ -56,7 +55,9 @@ const PokemonImage = styled.img`
 // 맵 돌려서 조건부 렌더링
 // 포켓몬 카드 재활용
 const DashBoard = () => {
-  const { dashBoardPokemons } = useContext(PokemonContext);
+  const dashBoardPokemons = useSelector((state) => {
+    return state.pokemon.dashBoardPokemons;
+  });
 
   const renderArray = [
     ...dashBoardPokemons,
