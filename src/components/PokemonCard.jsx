@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { useDispatch } from "react-redux";
-import { addPokemon, removePokemon } from "../redux/slices/pokemonSlice";
+import { addPokemon, removePokemon } from "../redux/Slices/PokemonSlice";
 
 const CardBox = styled.div`
   width: ${(props) => (props.$width ? props.$width : "130px")};
