@@ -14,21 +14,15 @@ const pokemonSlice = createSlice({
       const pokemon = action.payload;
 
       if (state.dashBoardPokemons.length >= 6) {
-        // Swal.fire({
-        //   icon: "error",
-        //   text: "포켓몬은 최대 6마리까지 선택할 수 있습니다.",
-        //   confirmButtonText: "확인",
-        //   confirmButtonColor: "#fef152",
-        //   customClass: {
-        //     confirmButton: "custom-confirm-button",
-        //     htmlContainer: "custom-text",
-        //   },
-        // });
         Swal.fire({
           icon: "error",
-          title: "Oops...",
-          text: "Something went wrong!",
-          footer: '<a href="#">Why do I have this issue?</a>',
+          text: "포켓몬은 최대 6마리까지 선택할 수 있습니다.",
+          confirmButtonText: "확인",
+          confirmButtonColor: "#fef152",
+          customClass: {
+            confirmButton: "custom-confirm-button",
+            htmlContainer: "custom-text",
+          },
         });
         return;
       }
